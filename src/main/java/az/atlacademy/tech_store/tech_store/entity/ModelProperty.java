@@ -10,7 +10,7 @@ import javax.persistence.*;
 @Table(name = "model_properties")
 public class ModelProperty {
     @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    @GeneratedValue(strategy =GenerationType.IDENTITY)
     private Long id;
 
     private Double price;
